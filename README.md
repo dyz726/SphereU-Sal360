@@ -50,6 +50,8 @@ Dataset/
 
 Set `--dataset_root_dir` to the individual dataset directory, such as `/path/to/Dataset/SVGC_AVA`. Per-video directories retain the `.mp4` suffix: for example, `maps/L01.mp4/` and `fixation/L01.mp4/` correspond to `videos/L01.mp4`. AVS-ODV stores extracted RGB frames in `frames/`.
 
+The split files are provided in [`Dataset_split/`](Dataset_split/). Copy the files for each dataset into its dataset root before running inference.
+
 The datasets use the following video-level splits:
 
 * **AVS-ODV** ([GitHub](https://github.com/IntMeGroup/AVS-ODV)): We use official **split 1**, with **132 training videos** in `train_list_1.txt` and **30 test videos** in `test_list_1.txt` (**test:train = 30:132**).
@@ -90,7 +92,7 @@ For AVS-ODV inference, use official split 1:
 * Model weights (`.pth`) are included in the results package and can be passed to `--base_model_weights` for inference.
 * Evaluation scripts are provided in `evaluate/`.
 
-**Results**: [ALL](https://pan.baidu.com/s/1TLQsvUhV4dnufWelAtysBw?pwd=qgbi) (extraction code: qgbi)
+**Weights and Results**: [ALL](https://pan.baidu.com/s/1TLQsvUhV4dnufWelAtysBw?pwd=qgbi) (extraction code: qgbi)
 
 # Acknowledgments
 
