@@ -1,0 +1,12 @@
+numpy
+scipy
+scikit-image
+opencv-python-headless
+torch
+torchvision
+timm
+einops
+tqdm
+trimesh
+wandb
+tensorboard
